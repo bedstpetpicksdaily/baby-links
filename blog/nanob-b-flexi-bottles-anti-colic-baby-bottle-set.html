@@ -73,6 +73,29 @@ li{margin:.4em 0;font-size:.92em}
 <a href="https://www.awin1.com/cread.php?awinmid=118289&awinaffid=2953193&ued=https%3A%2F%2Fbabytrend.com" target="_blank" rel="sponsored" style="display:inline-block;background:#1a1a2e;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-size:.9em;font-weight:600;margin:4px">Baby Trend &rarr;</a>
 </div>
 <h2>Frequently Asked Questions</h2><div class="faq-section"><div class="faq-item"><h3>How do Nanobébé Flexi Bottles compare to Dr. Brown's in terms of actual colic reduction?</h3><p>Both use anti-colic valve systems, but they work differently. Dr. Brown's uses a replaceable internal vent tube that requires assembly—more parts to sterilize, more failure points. Nanobébé's angled valve is simpler and integrated into the bottle design. In testing, babies fed from Nanobébé showed slightly less mid-feed fussiness, though both are genuinely effective. The real difference: Nanobébé requires less maintenance and is easier to clean. For pure anti-colic performance, they're comparable; for convenience, Nanobébé wins.</p></div><div class="faq-item"><h3>Are the flexi bottles durable long-term, or does the silicone degrade quickly?</h3><p>The silicone holds up well through 6-8 months of regular use—I tested bottles with heavy daily rotation. The material doesn't crack or tear like some cheaper silicone alternatives. What does happen: after 2-3 months of boiling water sterilization, minor cloudiness appears (cosmetic only, doesn't affect safety or function). If you use a bottle sterilizer instead of boiling, this cloudiness is minimal. The valve mechanism stayed airtight throughout the entire testing period with zero leaking or deterioration.</p></div><div class="faq-item"><h3>Is the temperature-change feature actually useful, or marketing fluff?</h3><p>Surprisingly practical. I tested it during early morning feeds when exhaustion kills common sense—the color change caught my attention twice when milk was genuinely too hot to give safely. It's not a replacement for testing temperature on your wrist (which you should always do), but it's a real safety net during those foggy 4 AM moments. Parents who bottle-feed at night consistently mentioned this feature as genuinely helpful, not gimmicky. It takes the guesswork out of one more thing when your brain is running on fumes.</p></div></div>
+<!-- benson-awin -->
+<div style="margin:2em 0;padding:16px 18px;background:#fff;border:1px solid #e8e8e8;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.04)">
+<div style="font-size:.78em;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px">💡 Our Trusted Partners</div>
+<a href="https://www.awin1.com/cread.php?awinmid=118289&awinaffid=2953193&ued=https%3A%2F%2Fbabytrend.com" target="_blank" rel="sponsored"
+  style="display:block;background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;
+  border-radius:12px;padding:16px 20px;text-decoration:none;margin:8px 0">
+  <div style="font-size:.72em;letter-spacing:1.5px;color:#ffd700;text-transform:uppercase;margin-bottom:4px">
+  💰 Premium Partner — n/a</div>
+  <div style="font-weight:800;font-size:1.05em;margin-bottom:2px">Baby Trend</div>
+  <div style="font-size:.8em;opacity:.8;margin-bottom:10px">strollers &bull; AOV: $150+</div>
+  <div style="display:inline-block;background:#ffd700;color:#000;padding:7px 16px;
+  border-radius:8px;font-weight:800;font-size:.85em">Shop Now &rarr;</div>
+</a><a href="https://www.awin1.com/cread.php?awinmid=118079&awinaffid=2953193&ued=https%3A%2F%2Fbabyshusher.com" target="_blank" rel="sponsored"
+  style="display:flex;align-items:center;gap:12px;background:#f8f9fa;
+  border:1px solid #e0e0e0;border-radius:10px;padding:12px 16px;
+  text-decoration:none;color:#111;margin:8px 0">
+  <span style="font-size:1.4em">🛒</span>
+  <div>
+    <div style="font-weight:700;font-size:.95em">Baby Shusher <span style="font-size:.75em;color:#2e7d32;background:#e8f5e9;padding:2px 7px;border-radius:10px;margin-left:4px">10%</span></div>
+    <div style="font-size:.78em;color:#666">baby sleep aids &bull; Shop now &rarr;</div>
+  </div>
+</a>
+</div>
 <p class="disclosure">As an Amazon Associate we earn from qualifying purchases at no extra cost to you.</p>
 <a class="back" href="https://bestbabypicksdaily.com/">&larr; Back to Best Baby Picks Daily</a>
 
@@ -129,6 +152,27 @@ li{margin:.4em 0;font-size:.92em}
       document.getElementById('benson-popup').style.display='block';
     }, 20000);
   }
+})();
+</script>
+<!-- benson-affiliate-tracker -->
+<script>
+(function(){
+  var affiliateDomains = ['amazon.com','amzn.to','awin1.com','awinaffid','prf.hn','shareasale.com','impact.com','cj.com'];
+  function isAffiliate(href){
+    if(!href) return false;
+    return affiliateDomains.some(function(d){return href.indexOf(d)>-1;});
+  }
+  document.addEventListener('click',function(e){
+    var el=e.target.closest('a');
+    if(!el||!isAffiliate(el.href)) return;
+    if(typeof gtag==='function'){
+      gtag('event','affiliate_click',{
+        'link_url': el.href,
+        'link_text': (el.innerText||'').trim().substring(0,100),
+        'page_path': window.location.pathname
+      });
+    }
+  },true);
 })();
 </script>
 </body>
